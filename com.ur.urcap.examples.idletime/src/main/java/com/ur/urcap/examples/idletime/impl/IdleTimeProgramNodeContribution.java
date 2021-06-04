@@ -152,7 +152,7 @@ public class IdleTimeProgramNodeContribution implements ProgramNodeContribution 
 		});
 
 		//Insert at top after sorting
-		items.add(0, "Select idle time summation variable");
+		items.add(0, "<Variable>");
 
 		comboVariables.setItems(items);
 
